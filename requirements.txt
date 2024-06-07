@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Jun  7 10:36:07 2024
+
+@author: dell 5593
+"""
+
+streamlit
+pandas
+numpy
+scikit-learn
