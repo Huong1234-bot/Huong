@@ -16,7 +16,7 @@ def dudoan(param):
     # load mô hình
     #filename='D:\NHNN\Khac\Python for Machine Learning\model_house.sav'
     #st.write(filename)
-    loaded_model = pickle.load(open('D:\\NHNN\\Khac\\Python for Machine Learning\\model_house.sav','rb')) 
+    loaded_model = pickle.load(open('model_house.sav','rb')) 
     y_pred=loaded_model.predict(param)
     return y_pred
 
